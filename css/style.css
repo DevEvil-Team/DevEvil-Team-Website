@@ -11,10 +11,10 @@ section {
   padding: 20px 100px;
 }
 
-.section-home {
+.section-home{
   position: relative;
   min-height: 100vh;
-  background: url(../img/landing.gif) no-repeat;
+  background: url(../img/landing.gif)no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -22,13 +22,21 @@ section {
   align-items: center;
 }
 
-.section-home:before {
-  content: "";
+.section-home:before{
+  content: '';
   position: absolute;
-  background: linear-gradient(to top, #191919, transparent);
+  background: linear-gradient(to top, #23252B, transparent);
   width: 100%;
   height: 80px;
   bottom: 0;
+}
+
+.section-home h1{
+  color: #117afa;
+  font-size: 5vw;
+  font-weight: 800;
+  text-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  opacity: 0.3;
 }
 
 .section-two {
