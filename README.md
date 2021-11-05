@@ -3,4 +3,4 @@
 # Website
 **[Click Here](https://devevil-team.xyz/)**
 # Join 
-**[Click Here](https://devevil-team.xyz/join)**
+**[Click Here](https://join.devevil-team.xyz/)**
