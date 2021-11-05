@@ -18,110 +18,54 @@
 	<title>DevEvil Team - Join</title>
 </head>
 <body>
-	<section class="contact" id="contact">
-		<div class="title reveal">
-		  <h2 class="section-title"></h2>
-		</div>
-		<div class="content">
-		  <div class="row">
-		
-		  </div>
-		  <div class="row">
-			<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzbylano" method="post">
+  <div class="container">
+    <div class="title">DevEvil Team</div>
+    <div class="content">
+		<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzbylano" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Discord</span>
+            <input type="text" name="discord" placeholder="What's your Discord Tag?" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Github</span>
+            <input type="text" name="github" placeholder="What's your Github Username?" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Name</span>
+            <input type="name" name="name" placeholder="What is your name?" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Age</span>
+            <input type="number" name="age" placeholder="How old are you?" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" name="email" placeholder="What is your personal email?" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Coding Language</span>
+            <input type="text" name="coding_language" placeholder="What coding languages are you specialized in?" required>
+          </div>
+		  <div class="input-box">
+            <span class="details">Country / Continent</span>
+            <input type="text" name="country" placeholder="In which continent / country do you reside?" required>
+          </div>
+		  <div class="input-box">
+            <span class="details">Timezone</span>
+            <input type="text" name="timezone" placeholder="What is your timezone?" required>
+          </div>
+		  <div class="input-box">
+            <span class="details">Job</span>
+            <input type="text" name="job" placeholder="What job you specialized in?" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
 
-			<div class="contact-form reveal">
-			  <h3>DevEvil Team</h3>
-			  <div class="input-box">
-				<input type="text" name="discord" value="" required="" placeholder="What's your Discord Tag?">
-			  </div>
-			  <div class="input-box">
-				<input type="text" name="github" value="" required="" placeholder="What's your Github Username?">
-			  </div> 
-			  <div class="input-box">
-				<input type="name" name="name" value="" required="" placeholder="What is your name?">
-			  </div> 
-			  <div class="input-box">
-				<input type="number" name="age" value="" required="" placeholder="How old are you?">
-			  </div> 
-			  <div class="input-box">
-				<input type="email" name="email" value="" required="" placeholder="What is your personal email?">
-			  </div> 
-			  <div class="input-box">
-				<input type="text" name="coding_langs" value="" required="" placeholder="What coding languages are you specialized in?">
-			  </div> 
-			  <div class="input-box">
-				<input type="text" name="country" value="" required="" placeholder="In which continent / country do you reside?">
-			  </div> 
-			  <div class="input-box">
-				<input type="text" name="timezone" value="" required="" placeholder="What is your timezone?">
-			  </div> 
-			  <div class="input-box">
-				<input type="text" name="job" value="" required="" placeholder="What job you specialized in?">
-			  </div> 
-			  <div class="input-box">
-				<textarea name="message" rows="8" cols="80" required="" placeholder="Note to reviewer"></textarea>
-			  </div>
-			  <div class="input-box">
-				<input type="submit" class="send-btn" name="" value="Send"/>
-			  </div>
-			</div>
-			</form>
-		  </div>
-		</div>
-	  </section>
-	  <script>
-
-window.addEventListener("scroll", function(){
-  const header = document.querySelector("header");
-  header.classList.toggle('sticky', window.scrollY > 0);
-});
-
-
-const menuBtn = document.querySelector(".menu-btn");
-const navigation = document.querySelector(".navigation");
-const navigationItems = document.querySelectorAll(".navigation a")
-
-menuBtn.addEventListener("click",  () => {
-  menuBtn.classList.toggle("active");
-  navigation.classList.toggle("active");
-});
-
-navigationItems.forEach((navigationItem) => {
-  navigationItem.addEventListener("click", () => {
-    menuBtn.classList.remove("active");
-    navigation.classList.remove("active");
-  });
-});
-
-
-const scrollBtn = document.querySelector(".scrollToTop-btn");
-
-window.addEventListener("scroll", function(){
-  scrollBtn.classList.toggle("active", window.scrollY > 500);
-});
-
-scrollBtn.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
-
-
-window.addEventListener("scroll", reveal);
-
-function reveal(){
-  var reveals = document.querySelectorAll(".reveal");
-
-  for(var i = 0; i < reveals.length; i++){
-    var windowHeight = window.innerHeight;
-    var revealTop = reveals[i].getBoundingClientRect().top;
-    var revealPoint = 50;
-
-    if(revealTop < windowHeight - revealPoint){
-      reveals[i].classList.add("active");
-    }
-  }
-}
-      
-	  </script>
 </body>
 </html>
