@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@font-face {
+	font-family: "canterbury";
+	src: url("../fonts/Canterbury.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -73,6 +78,7 @@ header {
 }
 
 header .logo {
+  font-family: "canterbury";
   color: #117afa;
   font-size: 1.8em;
   font-weight: 700;
