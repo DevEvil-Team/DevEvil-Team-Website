@@ -192,7 +192,7 @@ header.sticky .menu-item .sub-menu {
   display: none;
 }
 
-@media (max-width: 1060px) {
+@media screen and (max-width: 1060px) {
   header .navigation .menu {
     position: fixed;
     display: block;
