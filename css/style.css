@@ -167,7 +167,7 @@ header.sticky .menu-item .sub-menu {
   background: #191919;
   list-style: none;
   top: 0;
-  left: 100%;
+  right: 100%;
   white-space: nowrap;
   border-radius: 0 8px 8px 8px;
   overflow: hidden;
@@ -191,7 +191,7 @@ header.sticky .menu-item .sub-menu {
 }
 
 .more .more-menu .more-item:hover {
-  background: #4080ef;
+  background: #191919;
 }
 
 .menu-btn {
