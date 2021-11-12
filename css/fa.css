@@ -7,6 +7,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: "canterbury";
+	src: url("../fonts/Canterbury.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
 
 * {
   margin: 0;
@@ -83,6 +89,7 @@ header {
 
 header .logo {
   color: #117afa;
+  font-family: "canterbury";
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
@@ -194,7 +201,7 @@ header.sticky .menu-item .sub-menu {
 }
 
 .more .more-menu .more-item:hover {
-  background: #4080ef;
+  background: #191919;
 }
 
 .menu-btn {
