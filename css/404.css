@@ -1,44 +1,88 @@
-body
-{
-  background:radial-gradient(#191919 2px,transparent 2px);
-  background-color:#191919;
-  background-size:35px 35px;
-  margin:0px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-::selection {
-  color: #191919;
-  background: #117afa;
+body{
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100%;
+  background: #212121;
+
+}
+.container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.container h1, h2, p {
+  color: #117afa;
+}
+.lost-image{
+  width: 280px;
+  position: relative;
+}
+.title{
+  font-size : 5rem;
+  font-family: 'Montserrat', sans-serif;
+  animation: slideDown 0.4s linear ;
+}
+.text{
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
 }
 
-.main
-{
-  position:absolute;
-  width:100%;
-  height:100%;
-  overflow:hidden;
+.btn{
+  margin-top: 20px;
+  padding: 1rem 3rem;
+  border: 5px solid #117afa;
+  background: #117afa;
+  border-radius: 1rem;
+  color: #212121;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Montserrat' ;
+  animation: slideUp 0.3s linear;
 }
-.glitch
-{
-  position:absolute;
-  width:100%;
-  height:100%;
-  top:0px;
-  left:0px;
-  background-image: url(../img/404.gif);
-  background-position:center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity:0.7;
+
+@keyframes slideUp {
+  from{ transform: translateY(50px);}
+  to{
+      transform: translateY(0px);
+  }
 }
-.text
-{
-  font-family: 'Poppins',sans-serif;
-  font-size:30px;
-  color: #117afa;
-  letter-spacing: 10px;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:9999;
+@keyframes slideDown{
+  from {transform: translate(-50px, -30px);}
+  to{transform: translate(0px);}
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #117afa;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #191919;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #191919;
+}
+
+::selection {
+  background-color: #117afa;
+  color: #212121;
 }
