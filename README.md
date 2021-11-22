@@ -1,6 +1,7 @@
-# DevEvil Team
-**DevEvil team is not just a team but a family for programmers, designers, etc. In the DevEvil team, we create interesting things like discord bots & themes, websites, logos and many more**
-# Website
-**[Click Here](https://devevil-team.xyz/)**
-# Join 
-**[Click Here](https://join.devevil-team.xyz/)**
+
+# DevEvil Team ©
+**دوایول تیم فقط یک تیم نیست، بلکه یک خانواده برای برنامه‌ نویسان، طراحان و غیره است. در دوایول تیم، ما چیزهای جالبی مانند ربات ها و تم ها، وب سایت ها، آرم ها و بسیاری موارد دیگر ایجاد می کنیم.**
+# وبسایت
+**[اینجا کلیک کنید](https://fa.devevil-team.xyz/)**
+# به ما بپیوندید 
+**[اینجا کلیک کنید](https://join.devevil-team.xyz/fa)**
