@@ -1,6 +1,6 @@
-# DevEvil Team
-**DevEvil team is not just a team but a family for programmers, designers, etc. In the DevEvil team, we create interesting things like discord bots & themes, websites, logos and many more**
-# Website
-**[Click Here](https://devevil-team.xyz/)**
-# Join 
-**[Click Here](https://join.devevil-team.xyz/)**
+# DevEvil Team ©
+**DevEvil ekibi sadece bir ekip değil, programcılar, tasarımcılar vb.'den oluşan bir ailedir. DevEvil ekibinde, discord botları ve temaları, web siteleri, logolar ve daha pek çok ilginç şey yaratıyoruz.**
+# İnternet sitesi
+**[Buraya tıklayın](https://devevil-team.xyz/)**
+# Bize katılın 
+**[Buraya tıklayın](https://join.devevil-team.xyz/)**
